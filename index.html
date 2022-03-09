@@ -177,7 +177,7 @@
       </div>
     </section>
 
-    <section class="sessao-contato">
+    <section class="sessao-contato" id="contato">
       <div class="contato-wrapper">
         <div class="contato-letf"></div>
         <div class="contato-right">
@@ -200,6 +200,53 @@
         </div>
       </div>
     </section>
+
+    <section class="sessao-orcamento" id="orcamento">
+      <div class="orcamento-wrapper">
+        <h1>Faça um orçamento</h1>
+        <form>
+          <label for="qtde">Qtde de Páginas</label>
+          <input type="number" min="1" name="qtde" id="qtde">
+          <label for="js">Preciso de um script JS</label>
+          <input type="checkbox" name="js" id="js">
+          <label>Layout</label>
+          <div class="group-layout">
+            <div>
+              <input type="radio" name="layout" id="layout-sim">
+              <label for="layout-sim">Preciso de um layout</label>
+            </div>
+            <div>
+              <input type="radio" name="layout" id="layout-nao">
+              <label for="layout-nao">Já tenho um layout</label>
+            </div>
+          </div>
+          <label for="prazo">Prazo</label>
+          <input type="range" name="prazo" id="prazo" min="1" max="10">
+          <label id="preco">R$ 0,00</label>
+          <button class="btn btn-orcamento" type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <p>
+          Copyright 2022 - Todos os diretos reservados
+        </p>
+        <div class="social-list">
+          <ul>
+            <li><a href="https://github.com/MarcusViniciusAbdalla"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.instagram.com/marcusviniciusabdalla/"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/marcusviniciusabdalla/"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <a href="#home" id="link-topo">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
       
 </body>
 
