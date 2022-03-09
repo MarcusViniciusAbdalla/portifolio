@@ -11,8 +11,8 @@
 
 :root{
    --font-primary:"Baloo Chettan 2 " , serif;
-   --font-secundary: "slabo" , serif;
-   --font-action: "Kameron" 
+   --font-secundary: "Mulish" , serif;
+   --font-action: "Kameron", serif; 
 }
 
 .hamburguer{
