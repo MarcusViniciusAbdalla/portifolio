@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/MarcusViniciusAbdalla/portifolio/issues"
   },
-  "homepage": "https://github.com/MarcusViniciusAbdalla/portifolio#readme"
+  "homepage": "https://github.com/MarcusViniciusAbdalla/portifolio#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
 }
