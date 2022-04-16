@@ -1,0 +1,19 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "Portifólio do Desenvolvedor Web Full Stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarcusViniciusAbdalla/portifolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarcusViniciusAbdalla/portifolio/issues"
+  },
+  "homepage": "https://github.com/MarcusViniciusAbdalla/portifolio#readme"
+}
